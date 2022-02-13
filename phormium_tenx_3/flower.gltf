@@ -1,0 +1,145 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Phormium_tenax_A003"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "leaf C.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8114382028579712
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Phormium_tenax_A003.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "phormium_t_leaf_1_4_normal",
+            "uri" : "maps/phormium_t_leaf_1_4_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "phormium_t_leaf_3_1_diffuse_1",
+            "uri" : "maps/phormium_t_leaf_3_1_diffuse_1.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 17393,
+            "max" : [
+                6.138419151306152,
+                7.342209815979004,
+                5.96116828918457
+            ],
+            "min" : [
+                -5.521690368652344,
+                -0.007602999918162823,
+                -6.136648654937744
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 17393,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 17393,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 86025,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 208716,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 208716,
+            "byteOffset" : 208716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 139144,
+            "byteOffset" : 417432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 172050,
+            "byteOffset" : 556576
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 728628,
+            "uri" : "flower.bin"
+        }
+    ]
+}

@@ -1,0 +1,299 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Phormium_tenax_A002"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "leaf A 1.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8945907354354858
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "leaf A 2.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8945907354354858
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "leaf A 3.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8945907354354858
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Phormium_tenax_A002.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "phormium_t_leaf_2_1_diffuse_2",
+            "uri" : "maps/phormium_t_leaf_2_1_diffuse_2.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "phormium_t_leaf_3_1_diffuse_2",
+            "uri" : "maps/phormium_t_leaf_3_1_diffuse_2.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "phormium_t_leaf_1_1_diffuse_2",
+            "uri" : "maps/phormium_t_leaf_1_1_diffuse_2.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7634,
+            "max" : [
+                6.199656009674072,
+                7.445555210113525,
+                5.015584945678711
+            ],
+            "min" : [
+                -5.189180374145508,
+                -0.12362699955701828,
+                -5.90895414352417
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7634,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7634,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 37770,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 7189,
+            "max" : [
+                4.987925052642822,
+                7.5119829177856445,
+                5.16350793838501
+            ],
+            "min" : [
+                -6.2429704666137695,
+                -0.1254740059375763,
+                -5.773283958435059
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 7189,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 7189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 35565,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 3026,
+            "max" : [
+                5.060225009918213,
+                4.803915023803711,
+                5.760550022125244
+            ],
+            "min" : [
+                -4.268179893493652,
+                -0.1256600022315979,
+                -4.788775444030762
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 14970,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 91608,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 91608,
+            "byteOffset" : 91608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61072,
+            "byteOffset" : 183216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 75540,
+            "byteOffset" : 244288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 86268,
+            "byteOffset" : 319828
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 86268,
+            "byteOffset" : 406096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57512,
+            "byteOffset" : 492364
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 71130,
+            "byteOffset" : 549876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36312,
+            "byteOffset" : 621008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36312,
+            "byteOffset" : 657320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24208,
+            "byteOffset" : 693632
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29940,
+            "byteOffset" : 717840
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 747780,
+            "uri" : "flower.bin"
+        }
+    ]
+}
